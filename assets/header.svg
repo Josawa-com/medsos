@@ -20,7 +20,7 @@
       <animate attributeName="width" values="0;175;175;0;0" keyTimes="0;0.128;0.256;0.328;1" dur="12.5s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="type2"><rect x="240" y="64" width="0" height="34">
-      <animate attributeName="width" values="0;0;170;170;0" keyTimes="0;0.328;0.456;0.584;0.656" dur="12.5s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;170;170;0;0" keyTimes="0;0.328;0.456;0.584;0.656;1" dur="12.5s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="type3"><rect x="230" y="64" width="0" height="34">
       <animate attributeName="width" values="0;0;190;190;0" keyTimes="0;0.656;0.8;0.928;1" dur="12.5s" repeatCount="indefinite"/>
