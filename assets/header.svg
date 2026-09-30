@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="120" viewBox="0 0 650 120" role="img" aria-label="Syandana Reska Josawa - Website Designer, UI/UX Enthusiast, Based in Indonesia">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="33%" stop-color="#818CF8"/>
+      <stop offset="66%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+      <animate attributeName="x1" values="0;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="nameGlow" x="-30%" y="-80%" width="160%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#38BDF8" flood-opacity="0.55">
+        <animate attributeName="flood-color" values="#38BDF8;#818CF8;#F472B6;#38BDF8" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="flood-opacity" values="0.4;0.85;0.4" dur="2.5s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+
+    <clipPath id="type1"><rect x="237.5" y="64" width="0" height="34">
+      <animate attributeName="width" values="0;175;175;0;0" keyTimes="0;0.128;0.256;0.328;1" dur="12.5s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="240" y="64" width="0" height="34">
+      <animate attributeName="width" values="0;0;170;170;0" keyTimes="0;0.328;0.456;0.584;0.656" dur="12.5s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="type3"><rect x="230" y="64" width="0" height="34">
+      <animate attributeName="width" values="0;0;190;190;0" keyTimes="0;0.656;0.8;0.928;1" dur="12.5s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <text x="325" y="46" text-anchor="middle"
+        font-family="Poppins, 'Segoe UI', Ubuntu, sans-serif" font-weight="700" font-size="38"
+        fill="url(#nameGrad)" filter="url(#nameGlow)" textLength="450" lengthAdjust="spacingAndGlyphs">Syandana Reska Josawa</text>
+
+  <text x="325" y="88" text-anchor="middle" clip-path="url(#type1)"
+        font-family="Poppins, 'Segoe UI', Ubuntu, sans-serif" font-weight="500" font-size="22"
+        fill="#38BDF8" textLength="175" lengthAdjust="spacingAndGlyphs">Website Designer</text>
+
+  <text x="325" y="88" text-anchor="middle" clip-path="url(#type2)"
+        font-family="Poppins, 'Segoe UI', Ubuntu, sans-serif" font-weight="500" font-size="22"
+        fill="#F472B6" textLength="170" lengthAdjust="spacingAndGlyphs">UI/UX Enthusiast</text>
+
+  <text x="325" y="88" text-anchor="middle" clip-path="url(#type3)"
+        font-family="Poppins, 'Segoe UI', Ubuntu, sans-serif" font-weight="500" font-size="22"
+        fill="#25D366" textLength="190" lengthAdjust="spacingAndGlyphs">Based in Indonesia</text>
+
+  <rect x="237.5" y="68" width="2.5" height="26" rx="1.25" fill="#38BDF8">
+    <animate attributeName="x" values="237.5;412.5;412.5;240;410;410;230;420;420;230"
+             keyTimes="0;0.128;0.256;0.328;0.456;0.584;0.656;0.8;0.928;1" dur="12.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
